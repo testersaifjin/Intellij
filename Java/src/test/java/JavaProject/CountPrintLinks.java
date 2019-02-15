@@ -12,7 +12,7 @@ public class CountPrintLinks {
     public static void main(String[] args)
     {
         WebDriver driver;
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\SaifJain\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://espresso.liber.se/modules_sv/news/index_ks1.html?source=espresso-home-foundationtopnav-menu-biet");
 
