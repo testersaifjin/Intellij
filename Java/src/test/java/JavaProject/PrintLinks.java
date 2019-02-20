@@ -21,6 +21,6 @@ public class PrintLinks {
         System.out.println(print.size());
 
         for (int i=0; i<=print.size(); i++)
-            System.out.println(print.get(i).getText()+"**********"+print.get(i).getAttribute("href"));
+            System.out.println(print.get(i).getText()+"        **********"+"      ssssssssss      "+print.get(i).getAttribute("href"));
     }
 }
