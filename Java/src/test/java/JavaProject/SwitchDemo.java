@@ -12,6 +12,11 @@ public class SwitchDemo {
             case 1:
                 System.out.println("Poor");
                 break;
+                //break is optional
+            //default is optional
+            //but break should give as a part of the best practice
+            //for e.g. in the below code - if we don't give break statement - then it will print the x value also the default value
+            //printing both x and default value is not the correct answer
 
             case 2:
                 System.out.println("Slow");
