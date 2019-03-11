@@ -49,7 +49,7 @@ public class Try {
         System.out.println(h.data + " " +data);
 
 
-driver.getWindow
+
 
     }
 
