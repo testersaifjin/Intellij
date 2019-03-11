@@ -26,7 +26,7 @@ public class FloatDemo {
         System.out.println("The array is " + a[0]);
 
 
-       //converting Type casting from Double to Integer - means 8 byet to 4 byte is called
+       //converting Type casting from Double to Integer - means 8 byet to 4 byte is called Downcasting
         //Downcasting - converting highter data type to lower data type
         int c = (int) 45.45;
 
