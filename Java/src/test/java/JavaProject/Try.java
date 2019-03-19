@@ -2,28 +2,38 @@ package JavaProject;
 
 import org.openqa.selenium.WebDriver;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Try {
 
     public static void main(String[] args){
 
-        int[][] array = new int[2][2];
+        ArrayList array = new ArrayList();
 
-        array[0][0] = 10;
-        array[0][1] = 20;
+        array.add(10);
+        array.add(20);
+        array.add("saif");
 
-        array[1][0] = 30;
-        array[1][1] = 40;
+        for (int i=0; i<array.size();i++)
+        {
+            System.out.println(+i+""+array.get(i));
+        }
+        System.out.println();
 
-        int arraysize = array.length;
+        Object arraysize = array.size();
         System.out.println(arraysize);
 
-        for (int i=0; i<array.length;i++)
+        for (Object newarray: array)
         {
-            for (int j=0; j<array[i].length;j++)
-            {
-                System.out.print(array[i][j]);
-            }
-            System.out.println();
+            System.out.println(newarray);
+        }
+
+        Iterator itr = array.iterator();
+        while (itr.hasNext())
+        {
+            Object value = itr.next();
+            System.out.println(value);
         }
 
 

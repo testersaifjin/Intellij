@@ -55,6 +55,18 @@ public class ArrayListDemo {
     //List - List is an Interface
     //ArrayList - is a class and implements List
 
+    //Generic in Collection
+
+    //1-Java new generic collection allows you to have only one type of object in collection.
+    // Now it is type safe so typecasting is not required at run time.
+    // * Non-generic arraylist * ArrayList al = new ArrayList();
+
+    //2 - Generic example of creating java
+    // * ArrayList<String> al = new ArrayList<String>();
+
+    //In generic collection, we specify the type in angular braces. Now ArrayList is forced to have only specified
+    //type of objects in it. If you try to add another type of object, it gives compile time error.
+
     public static void main(String[] args) {
 
         //What is Array List

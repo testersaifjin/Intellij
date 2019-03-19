@@ -21,10 +21,21 @@ public class ArrayListDemo4 {
 
         Iterator itr = obj1.iterator();//Iterator is an Interface with the Abstract method hasnext(), next()
 
-        while (itr.hasNext()) {
+        while (itr.hasNext())
+        {
             Object value = itr.next();
             System.out.println(value);
         }
-
+//        for (Object abc: obj1) **********Just practicing*********
+//        {
+//            System.out.println(abc);
+//        }
+//        Iterator itr = obj1.iterator();
+//
+//        while (itr.hasNext())
+//        {
+//            Object value = itr.next();
+//            System.out.println(value);
+//        }
     }
 }
