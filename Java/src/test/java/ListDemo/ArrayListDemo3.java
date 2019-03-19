@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListDemo3 {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         ArrayList obj1 = new ArrayList(); //N number of values u can add - there is no limit in Size or Type in this ArrayList
 
@@ -20,9 +19,8 @@ public class ArrayListDemo3 {
         obj1.add(1245434.544);
 
         //we going to use Enhance for loop
-        for (Object abc: obj1)
-        {
+        for (Object abc : obj1) {
             System.out.println(abc);
         }
-        }
+    }
 }
