@@ -9,7 +9,7 @@ public class AdvanceCalc1 implements Calc{
 
         //Second valid scenario is
         //Create Reference of Base class or Interface and the Object of Child class
-        //In that we cann access all the method of base class
+        //In that we can access all the method of base class
 
         obj1.add();
 

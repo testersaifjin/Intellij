@@ -1,5 +1,8 @@
 package JavaProject;
 
+import InheritanceDemo.ChildClass;
+import JavaIntermediate.DynamicCalculator;
+
 public class AdvanceCalculator {
 
     String name = "Mukesh";
@@ -15,4 +18,12 @@ public class AdvanceCalculator {
         System.out.println("It performs subtraction");
 
     }
+
+    public static void main(String[] args)
+    {
+        DynamicCalculator obj2 = new DynamicCalculator();
+        obj2.add(20, 20);
+    }
+
+
 }

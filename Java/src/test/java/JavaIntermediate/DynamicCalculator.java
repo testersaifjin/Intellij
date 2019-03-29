@@ -1,5 +1,7 @@
 package JavaIntermediate;
 
+import JavaProject.AdvanceCalculator;
+
 public class DynamicCalculator {
 
 //In this method we don't need main method
@@ -30,4 +32,9 @@ public class DynamicCalculator {
         return z;
 
     }
+
+
+
+
+
 }
